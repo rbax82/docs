@@ -30,6 +30,10 @@ radarr
 readarr
 sonarr
 tautulli
+mariadb
+postgres
+mongodb
+redis
 ```
 
 Ther is a command at the end of this page you can use to get an updated list of roles that support this method.
@@ -62,7 +66,10 @@ Those names have to be unique across all of your containers, so it is suggested 
 You can edit the following set of variables on a per instance basis in `localhost.yml`:
 
 !!! note
-    Replacing "instance" with the actual **instance name**, of course, i.e. sonarrbing_web_subdomain, etc.
+    Replacing "instance" with the actual **instance name**, of course, i.e. `sonarrbing_web_subdomain`, etc.
+
+!!! note
+    For instances that contain a dash (`-`) in the name, the variables will replace the instance name's dash with an underscore (`_`). i.e. instead of `sonarr-bong_web_subdomain` the variable would be `sonarr_bong_web_subdomain`.
 
 ```text
 instance_web_subdomain
