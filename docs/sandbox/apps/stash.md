@@ -22,4 +22,6 @@ sb install sandbox-stash
 
 ### 3. Setup
 
+- You may receive an error regarding public access without authentication. Saltbox deploys Stash behind Authelia and if you re-run `sb install sandbox-stash` the role will take care of the YML edit(s) required.
+
 - [:octicons-link-16: Documentation](https://github.com/stashapp/stash/wiki){: .header-icons target=_blank rel="noopener noreferrer" }
