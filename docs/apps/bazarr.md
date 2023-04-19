@@ -22,6 +22,6 @@ sb install bazarr
 
 ### 3. Setup
 
-- [:octicons-link-16: Documentation](https://wiki.bazarr.media/){: .header-icons target=_blank rel="noopener noreferrer" }
+- [:octicons-link-16: Documentation]([https://wiki.bazarr.media/](https://wiki.bazarr.media/Getting-Started/Setup-Guide/){: .header-icons target=_blank rel="noopener noreferrer" }
 
 - [:octicons-link-16: TraSH Guides](https://trash-guides.info/Bazarr/)
